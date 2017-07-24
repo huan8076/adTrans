@@ -84,7 +84,7 @@
 			</div>
 			<div class="list sty2">
 				<div class="itemWarp">
-					<a class="item" id="goSetting" style="border-top:0;">
+					<a class="item" style="border-top:0;">
 						<div class="itemTitle">
 							<div class="titleCell">
 								<h2>為什麼我手機收不到通知？</h2>
@@ -108,7 +108,7 @@
 								<img src="img/more/qa/notificationASUS.png">
 							</p>
 							<p>
-								<a id="transLink" href="trans_setting.html" style="text-decoration: underline;color: #4169E1;">立即前往設定</a><br><br>
+								<a href="trans_setting.html" style="text-decoration: underline;color: #4169E1;">立即前往設定</a><br><br>
 								如果仍然無法收到推播通知，<a href="https://docs.google.com/forms/d/e/1FAIpQLSec1K8wngV3gvfBjmLIX_cYhS8eL81isIzR4R5m65EgYQfX1Q/viewform" style="color: #4169E1;">請留言給我們</a>，將安排專人與您聯繫喔！
 							</p>
 						</div>	
@@ -352,7 +352,6 @@
 
 <script>
 $(document).ready(function(){
-	console.log(321)
 	var scrollTop ;
 	var storeObject = new Object();
 	var transLocalStorage = localStorage.getItem("transLink")!=null? JSON.parse(localStorage.getItem("transLink")):null;
