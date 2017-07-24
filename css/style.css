@@ -1,0 +1,267 @@
+/***************************
+ * file:  more-qa.html
+ * note:  使用說明
+ ***************************/
+.qa-container{font-family: Century Gothic, Arial, "微軟正黑體", "新細明體"; background-color:#fff; }
+.qa-container .cgyHeader{
+	padding-left: 8pt;
+	height:30px;
+	background-color: #E6EEF9;
+	padding-top: 8px;
+}
+.qa-container .cgyHeader h1{
+	display:block;
+	line-height:30px;
+	font-size: 13px;
+	font-weight:bold;
+	color: #185688;
+}
+.qa-container .cgyHeader h1 i{
+    font-size: 16px;
+    padding-right: 3px;
+    vertical-align: text-bottom;
+}
+.list.sty2 {
+    _margin-bottom: 120px;
+}
+.itemWarp{
+
+}
+.item{
+	display:block;
+	position:relative;
+	margin-left: 15px;
+	padding: 17px 30px 17px 0;
+	border-top:1px solid #eaeaea;
+	box-sizing:border-box;
+	color: #111;
+	font-weight: bold;
+}
+.sty1 .item{padding: 10px 30px 10px 70px;}
+.sty2 .item{padding: 24px 30px 20px 0;}
+.highlight{font-weight: bold;color: #206FA5;}
+p.sty2{margin: 25px 0 20px;font-weight: bold;}
+p.sty2 img{margin: 10px 0;}
+.subtitle{color:#3c3c3c;line-height: 1.5;font-size: 16px;}
+.item-thumbnail-left{
+    padding-left: 70px;
+    /* height: 80px; */
+}
+.item-thumbnail-left:last-child{
+	border-bottom:none;
+}
+.item-thumbnail-left .itemImg{
+	position:absolute;
+	left: 0;
+	width: 60px;
+}
+.item-thumbnail-left .itemImg img{
+	width: 100%;
+}
+.itemTitle{
+	display:table;
+	width: 100%;
+	min-height: 20px;
+}
+.item-thumbnail-left .itemTitle{
+	height:60px;
+}
+.itemTitle .titleCell{
+	display:table-cell;
+	vertical-align:middle;
+	padding-left: 5px;
+}
+.itemTitle .titleCell span{
+	text-align:center;
+	_float:left;
+}
+.itemTitle .titleCell h2{
+	_float:left;
+	line-height: 1.4;
+	font-size: 19px;
+	font-weight: normal;
+}
+.item-thumbnail-left .itemTitle .titleCell span{padding-right: 5px;line-height: 1.3;}
+.item-thumbnail-left .itemTitle .titleCell h2{
+	width: 95%;
+}
+.item i{
+	position:absolute;
+	right:8px;
+	top:50%;
+	margin-top:-11px;
+	font-size:22px;
+	font-weight:bold;
+	color:#ccc;
+	transform:rotate(0deg);
+	transition:.3s;
+	opacity: 0.7;
+}
+.item i.active{
+	transform:rotate(180deg);
+	transition:.3s;
+	color: #206FA5;
+    opacity: 0.7;
+}
+.detailText{
+	width: 100%;
+	height:0;
+	overflow:hidden;
+}
+.detailText div{padding: 25px 15px 25px 20px;background-color: #f8f8f8;}
+.detailText img{
+	width: 100%;    margin-bottom: 10px;
+}
+.detailText.active{
+}
+.detailText p{
+	line-height:1.5;
+	font-size: 16px;
+	color: #4c4c4c;
+}
+.detailText p:last-child{
+}
+
+
+/***************************
+ * file:  more-about.html
+ * note:  關於我們
+ ***************************/
+
+
+
+.more-about-content{
+ position: relative; width:100%;background-color: #fff;
+}
+.more-about-content img{
+ width: 100%;
+}
+.more-about-content .note{
+ padding: 10px 24px;
+}
+.more-about-content .note  h1{
+ color: #1656a3;
+ font-weight: bold;
+ display: inline-block;
+ margin: 5px 0 2px;
+ font-size: 19px;
+ /* margin-bottom: 20px; */
+}
+.more-about-content .note .content{
+ margin-bottom:20px;
+ font-size: 15px;
+}
+.more-about-content .note .content p {
+ line-height: 1.5;
+ color:#222;
+}
+
+/***************************
+ * file:  more-ks.html
+ * note:  公益廣告
+ ***************************/
+.more-ks-content{
+ 	position:relative;
+ 	font-family: '微軟正黑體';
+}
+.more-ks-content .headerImg img{
+ 	width: 100%;
+}
+.more-ks-content .wrapper{
+	padding-left:20px;
+	margin-top:30px;
+ }
+.more-ks-content .wrapper.spaceBottom{
+	position:relative;
+	top:-120px;
+}
+.more-ks-content .wrapper .titleBar{
+ 	width: 40px;
+ 	height: 5px;
+ 	background-color:#c63222;
+}
+.more-ks-content .wrapper .titleContent{
+ 	display:inline-block;
+ 	margin-top:25px;
+ 	font-size:20px;
+ 	font-weight:bold;
+ 	line-height:28px;	
+}
+.more-ks-content .wrapper .content{
+	position:relative;
+	padding-top:30px;
+}
+.more-ks-content .wrapper .content p {
+	font-size:14px;
+	line-height: 20px;
+	letter-spacing:2px;
+}
+.more-ks-content .wrapper .content .contentImg{
+	position:absolute;
+	/*width: 170px;*/
+	width: 40%;
+	right:0;
+	top:124px;
+}
+.more-ks-content .wrapper .content .contentImg img{
+	width: 100%;
+}
+
+.more-ks-content .sectionSpace{
+	width: 95%;
+	margin:0 auto;
+}
+.more-ks-content .sectionSpace img{
+	width: 100%;
+}
+.more-ks-content .sectionSpace .sectionLine{
+	margin:40px 0 30px 0;
+}
+.more-ks-content .wrapper .content .point{
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.more-ks-content .wrapper .content .item{
+	padding:5px 0 5px 15px;
+	border:none;
+}
+.more-ks-content .wrapper .content .item img{
+	width: 8px;
+	position:absolute;
+	top:12px;
+	left: 0;
+}
+.more-ks-content .joinBtn{
+	position:relative;
+	padding: 20px 0;
+	margin-left:-20px;
+}
+.more-ks-content .joinBtn img{
+	display:block;
+	width: 200px;
+	margin:0 auto;
+}
+
+
+/***************************
+ * file:  more-k.html
+ * note:  今網寬頻
+ ***************************/
+.main {margin: 0 auto;/* width: 640px; */text-align: center;position: relative;background-color: #f5f5f5;}
+.header {text-align: center;width: 100%;position:fixed;z-index:100;overflow: hidden;display: block;top: 0;}
+.container {position: relative;width: 100%;background-color: #fff;margin: 0 auto;margin-top: 81px;margin-bottom: 60px;}
+.container .pageWarp {display:none;}
+.container .pageWarp.active {display:block;}
+.container .pageWarp img{    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;}
+.footer {background-color: #0071bc;color: #fff;font-size: 13px;padding: 20px 30px;line-height: 1.3;text-align: center;}
+
+/*navbar*/
+.navbar{background-color: #fff;width: 100%;z-index: 99;background: rgba(255,255,255,0.95);}
+.navbar ul{list-style:none; margin: 0; padding: 0; position: relative; display: block; border: 0; max-width: 100%; overflow: visible; zoom: 1;}
+.navbar ul li{width: 33.33%;float: left;/* background-color: #036eb7; */}
+.navbar ul li a{display: block;text-align: center;border-right-width: 0;height: 40px;line-height: 40px;font-size: 16px;col;color: #5f5f5f !important;-moz-box-sizing: border-box;box-sizing: border-box;width: 100%;margin: 0 auto;}
+.navbar ul li a.active {border-bottom: 3px solid #036eb7;color: #036eb7 !important;cursor: pointer;text-decoration: none;background-image:none !important;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;font-weight:bold;opacity: 1;}
+.navbar ul:before, #more-k .navbar ul:after { content: " "; display: table; }
+.navbar ul:after {content: " ";clear: both;border-bottom: 1px solid #ddd;display:block;position:relative;}
